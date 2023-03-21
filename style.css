@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+:root{
+    --border-curve : 3rem;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(135,135,135,1) 50%, rgba(73,73,73,1) 100%);
+}
+
+.section{
+    /* border: 4px solid black; */
+    padding: 2rem 0rem;
+    background: linear-gradient(0deg, rgba(73,73,73,1) 0%, rgba(135,135,135,1) 58%, rgba(193,193,193,1) 100%);
+    border-radius: var(--border-curve);
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.section>div{
+    /* width: 100vw; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+.btn{
+    width: 8.5rem;
+    height: 7.6rem;
+    text-align: center;
+    font-size: 4.5rem;
+    margin: 0.3rem;
+    border-radius: var(--border-curve);
+    flex-grow: 2;
+    flex-shrink: 10;
+    flex-wrap: wrap;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(177, 177, 177, 0.847);
+}
+.btn:active{
+    background-color: rgba(78, 78, 78, 0.861);
+}
+#btnC:active{
+    background-color: rgba(255, 54, 54, 0.904);
+}
+#btnres:active{
+    background-color: green;
+}
+#row5{
+    margin-bottom: 1.5rem;
+}
+.screen-container{
+    width: 79%;
+    margin: 1.5rem 0rem;
+    /* padding: rem; */
+    /* border: 1px solid black; */
+}
+#screen{
+    margin: 0.3rem;
+    border-radius: 10px;
+    font-size: 3.5rem;
+    text-align: right;
+    padding: 0.2rem;
+    padding-right: 0.5rem;
+    flex-grow: 2;
+    flex-shrink: 10;
+    width:inherit;
+    font-family: 'Play', sans-serif;
+    /* background-color: rgba(41, 136, 41, 0.735); */
+}
